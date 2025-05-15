@@ -68,7 +68,7 @@ def discover_mujoco():
     """
     mujoco_path = os.getenv('MUJOCO_PY_MUJOCO_PATH')
     if not mujoco_path:
-        mujoco_path = join(expanduser('~'), '.mujoco', 'mujoco210')
+        mujoco_path = join(expanduser('~'), '.mujoco', 'mujoco200_win64')
 
     # We get lots of github issues that seem to be missing these
     # so check that mujoco is really there and raise errors if not.
